@@ -1,4 +1,4 @@
-package com.lcafe8;
+package com.lcafe8.collection;
 
 import java.util.Collection;
 import java.util.Collections;

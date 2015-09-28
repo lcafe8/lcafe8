@@ -1,4 +1,4 @@
-package com.lcafe8.Calculation;
+package com.lcafe8.calculation;
 
 import java.awt.BorderLayout;
 import java.awt.Font;
