@@ -1,5 +1,8 @@
 package com.lcafe8;
 
+/***
+ * 自定义比较器
+ */
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -8,7 +11,7 @@ public class TreeSetTest
 {
 	public static void main(String[] args)
 	{
-		TreeSet set = new TreeSet(new Mycomparator());
+		TreeSet<String> set = new TreeSet<String>(new Mycomparator());
 		
 		set.add("C");
 		set.add("A");
@@ -17,7 +20,7 @@ public class TreeSetTest
 		set.add("F");
 		set.add("D");
 		
-		for(Iterator iter = set.iterator();iter.hasNext();)
+		for(Iterator<String> iter = set.iterator();iter.hasNext();)
 		{
 			String value = (String)iter.next();
 			

@@ -1,4 +1,4 @@
-package com.lcafe0831.Strategy;
+package com.lcafe8.strategy;
 
 public class Person
 {

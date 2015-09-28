@@ -1,4 +1,4 @@
-package com.lcafe0831;
+package com.lcafe8.generic;
 
 public class Generic<T1, T2>
 {

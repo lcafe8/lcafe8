@@ -1,9 +1,9 @@
 package com.lcafe8;
 
-public class Node
+public class Node<T>
 {
 	String data;
-	Node next;
+	Node<T> next;
 	
 	//构造方法没有返回类型
 	public Node(String data)
@@ -12,7 +12,7 @@ public class Node
 	}
 	
 	//打印数据
-	public void PrintNode(Node node)
+	public void PrintNode(Node<T> node)
 	{
 		while(node != null)
 		{

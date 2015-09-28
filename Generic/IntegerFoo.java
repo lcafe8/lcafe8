@@ -1,5 +1,4 @@
-package com.lcafe0831;
-
+package com.lcafe8.generic;
 public class IntegerFoo
 {
 	private Integer foo;

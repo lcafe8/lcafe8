@@ -10,7 +10,7 @@ public class SuppressWarningsTest
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args)
 	{
-		Map map = new HashMap();
+		Map<String,Date> map = new HashMap<String,Date>();
 		map.put("Hello", new Date());
 		System.out.println(map.get("Hello"));
 	}

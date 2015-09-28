@@ -1,4 +1,4 @@
-package com.lcafe8.strategy;
+package com.lcafe8.strategy1;
 
 public class MultiplyStrategy implements Strategy
 {

@@ -4,9 +4,9 @@ import java.util.LinkedList;
 
 public class MyStack
 {
-	private LinkedList list = new LinkedList();
+	private LinkedList<String> list = new LinkedList<String>();
 	
-	public void Push(Object e)
+	public void Push(String e)
 	{
 		list.addFirst(e);
 	}

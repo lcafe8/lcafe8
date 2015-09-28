@@ -9,7 +9,7 @@ public class CollectionTest
 {
 	public static void main(String[] args)
 	{
-		LinkedList list = new LinkedList();
+		LinkedList<Integer> list = new LinkedList<Integer>();
 		
 		list.add(new Integer(-8));
 		list.add(new Integer(20));
@@ -17,7 +17,7 @@ public class CollectionTest
 		list.add(new Integer(8));
 //		list.add(new Integer(8));
 		
-		Comparator t  = Collections.reverseOrder();
+		Comparator<Integer> t  = Collections.reverseOrder();
 		
 		Collections.sort(list, t);
 		
@@ -25,7 +25,7 @@ public class CollectionTest
 //		{
 //			System.out.println(list.get(i));
 //		}
-		for(Iterator iter=list.iterator();iter.hasNext();)
+		for(Iterator<Integer> iter=list.iterator();iter.hasNext();)
 		{
 			System.out.println(iter.next());
 		}

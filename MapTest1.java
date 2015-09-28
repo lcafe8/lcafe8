@@ -8,7 +8,7 @@ public class MapTest1
 {
 	public static void main(String[] args)
 	{
-		HashMap m = new HashMap();
+		HashMap<String,String> m = new HashMap<String,String>();
 		
 		String str = new String("a");
 		
@@ -24,8 +24,8 @@ public class MapTest1
 		System.out.println(value);
 		System.out.println("-------------------");
 		
-		Set set = m.keySet();
-		for(Iterator iter = set.iterator(); iter.hasNext();)
+		Set<String> set = m.keySet();
+		for(Iterator<String> iter = set.iterator(); iter.hasNext();)
 		{
 			String key = (String)iter.next();
 			System.out.println(key+":"+(String)m.get(key));

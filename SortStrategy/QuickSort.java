@@ -1,4 +1,4 @@
-package com.lcafe8.SortStrategy;
+package com.lcafe8.sortStrategy;
 /**
  * ¿ìËÙÅÅĞò
  * @author Administrator

@@ -4,11 +4,11 @@ import java.util.LinkedList;
 
 public class MyQueue
 {
-	private LinkedList list = new LinkedList();
+	private LinkedList<String> list = new LinkedList<String>();
 	
 	public void put(Object o)
 	{
-		list.addLast(o);
+		list.addLast((String) o);
 	}
 	
 	public Object get()

@@ -6,7 +6,7 @@ public class MapTest2
 {
 	public static void main(String[] args)
 	{
-		HashMap map = new HashMap();
+		HashMap<String,Integer> map = new HashMap<String,Integer>();
 		
 		for(int i=0;i<args.length;++i)
 		{
